@@ -10,11 +10,8 @@ public class TasksDTO {
     private Long user;
     private String value;
 
-    public TasksDTO(Boolean completed, Long id, Long user, String value) {
-        this.completed = completed;
-        this.id = id;
-        this.user = user;
-        this.value = value;
+
+    public TasksDTO() {
     }
 
     public Boolean getCompleted() {
