@@ -1,17 +1,16 @@
-package com.sdacademy.madajczyk.bartek.apiapp;
+package com.sdacademy.madajczyk.bartek.apiapp.dto;
 
 /**
  * Created by RENT on 2017-04-29.
  */
 
-public class Tasks {
+public class TasksDTO {
     private Boolean completed;
     private Long id;
     private Long user;
     private String value;
 
-
-    public Tasks(Boolean completed, Long id, Long user, String value) {
+    public TasksDTO(Boolean completed, Long id, Long user, String value) {
         this.completed = completed;
         this.id = id;
         this.user = user;
